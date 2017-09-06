@@ -24,15 +24,7 @@ var mir_tmpl = $("#template").text(),
 		{% for n in site.new_mirrors %}"{{n}}": true{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
 	},
 
-	unlisted = [
-	{
-		'status': 'success',
-		'last_update': '-',
-		'name': "AUR",
-		'url': 'https://aur.tuna.tsinghua.edu.cn/',
-		'upstream': 'https://aur.archlinux.org/'
-	}
-	],
+	unlisted = [],
 	options = {
 		'AOSP': {
 			'url': "/help/AOSP/"
