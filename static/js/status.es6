@@ -4,11 +4,11 @@ $(document).ready(() => {
 	var mir_tmpl = $("#template").text();
 	
 	$.get("/static/status/disk.json", (d) => {
-		var used_percent = Math.round(d.used_kb * 100 / d.total_kb);
+		var used_percent = Math.round(d.used * 100 / d.total);
 		$('#disk-usage-bar')
 			.attr("aria-valuenow", used_percent)
 			.css("width", used_percent + "%")
-			.html("<strong>" + d.used_readable + " / " + d.total_readable + "</strong>");
+			.html("<strong>" + d.used + "T / " + d.total + "T</strong>");
 	});
 
 	window.refreshMirrorList = () => {
