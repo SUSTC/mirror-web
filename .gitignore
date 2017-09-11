@@ -1,3 +1,4 @@
+*.lock
 *.swp
 *~
 /Gemfile.lock
@@ -6,6 +7,7 @@
 /static/isoinfo.json
 /static/tunet.json
 /static/js/vue.js
+/static/status
 /_site
 /deploy.sh
 /.sass-cache/
