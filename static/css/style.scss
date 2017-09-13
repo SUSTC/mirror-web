@@ -11,11 +11,11 @@ URL: http://alvarez.is
 
 ################################################################# */ 
 
-$color_thu_purple: #82318E;
+$color_thu_purple: #f39655;
 $color_light_grey: #888;
 $color_grey: #555;
 $color_primary: $color_thu_purple;
-$color_primary_light: #d8aff6;
+$color_primary_light: #FFC49B;
 $color_primary_rgb: 92,48,125;
 $color_secondary: #384452;
 $color_link: #088acb;
@@ -164,4 +164,8 @@ $font_local: 'Heiti SC', 'Hiragino Sans GB', 'STHeiti', 'Source Han Sans CN', 'W
 
 .clickable {
 	cursor: pointer;
+}
+
+#footer_logo {
+	opacity: 0.5;
 }
