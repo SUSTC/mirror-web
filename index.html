@@ -6,7 +6,7 @@ permalink: /
 	{% include head.html %}
 	<body>
 		{% include nav.html %}
-	
+
 		<div id="mirrors">
 			<div class="spacing hidden-xs"></div>
 
@@ -26,7 +26,7 @@ permalink: /
 								<tr v-for="mir in mirrorList" :class="['row', 'status-'+mir.status]">
 									<template v-if="mir.is_master">
 									<td class="col-md-8">
-										<a class="mirror-item-label"  data-toggle="popover" data-trigger="hover" data-placement="right" 
+										<a class="mirror-item-label"  data-toggle="popover" data-trigger="hover" data-placement="right"
 											:data-content="mir.description" :href="getURL(mir)">
 											{{mir.name}}
 											<span class="label label-new" v-if='mir.is_new'>new</span>
@@ -82,7 +82,7 @@ permalink: /
 							<ul>
 								<li><strong>意见反馈</strong> <br /> <a href="https://github.com/sustc/issues">https://github.com/sustc/issues</a></li>
 								<li>
-									<strong>在线交流</strong> <br /> 
+									<strong>在线交流</strong> <br />
 									<a href="https://jq.qq.com/?_wv=1027&k=5n8TCkb"> SUSTech@LUG at QQ </a> <br />
 									<a href="https://t.me/joinchat/C1Kxx0OJASxDilWJTLlz1Q"> SUSTech@LUG at telegram </a>
 								</li>
@@ -119,7 +119,7 @@ permalink: /
 						<div class="col-md-12">
 							<ul class="nav nav-tabs">
 								<li role="presentation" :class="[curCategory === 'os' ? 'active' : '']" @click="switchCategory('os')"><a href="#">操作系统</a></li>
-								<!--li role="presentation" :class="[curCategory === 'app' ? 'active' : '']" @click="switchCategory('app')"><a href="#">应用软件</a></li-->
+								<li role="presentation" :class="[curCategory === 'app' ? 'active' : '']" @click="switchCategory('app')"><a href="#">应用软件</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">
