@@ -24,7 +24,13 @@ var mir_tmpl = $("#template").text(),
 		{% for n in site.new_mirrors %}"{{n}}": true{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
 	},
 
-	unlisted = [],
+	unlisted = [{
+		'status': 'success',
+		'last_update': '-',
+		'name': "rufus",
+		'url': 'http://rufus.mirrors.sustc.us/',
+		'upstream': 'https://rufus.akeo.ie/'
+	}],
 	options = {
 		'AOSP': {
 			'url': "/help/AOSP/"
