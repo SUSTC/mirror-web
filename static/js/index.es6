@@ -30,7 +30,25 @@ var mir_tmpl = $("#template").text(),
 		'name': "rufus",
 		'url': 'http://rufus.mirrors.sustc.us/',
 		'upstream': 'https://rufus.akeo.ie/'
-	}],
+	}, {
+    'status': 'success',
+    'last_update': '-',
+    'name': "debian",
+    'url': '/debian',
+    'upstream': 'https://mirrors.tuna.tsinghua.edu.cn/'
+  }, {
+    'status': 'success',
+    'last_update': '-',
+    'name': "pypi",
+    'url': 'https://pypi.sustc.us/',
+    'upstream': 'https://pypi.tuna.tsinghua.edu.cn/'
+  }, {
+    'status': 'success',
+    'last_update': '-',
+    'name': "msdn",
+    'url': '/msdn',
+    'upstream': '-'
+  }],
 	options = {
 		'AOSP': {
 			'url': "/help/AOSP/"
