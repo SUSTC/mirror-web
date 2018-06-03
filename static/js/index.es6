@@ -33,21 +33,21 @@ var mir_tmpl = $("#template").text(),
 	}, {
     'status': 'success',
     'last_update': '-',
+    'name': "centos",
+    'url': '/centos',
+    'upstream': 'https://mirrors.tuna.tsinghua.edu.cn/'
+  }, {
+    'status': 'success',
+    'last_update': '-',
     'name': "debian",
     'url': '/debian',
     'upstream': 'https://mirrors.tuna.tsinghua.edu.cn/'
-  }, {
+  },{
     'status': 'success',
     'last_update': '-',
     'name': "pypi",
     'url': 'https://pypi.sustc.us/',
     'upstream': 'https://pypi.tuna.tsinghua.edu.cn/'
-  }, {
-    'status': 'success',
-    'last_update': '-',
-    'name': "msdn",
-    'url': '/msdn',
-    'upstream': '-'
   }],
 	options = {
 		'AOSP': {
