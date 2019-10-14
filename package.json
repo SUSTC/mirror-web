@@ -1,0 +1,19 @@
+{
+  "name": "mirrors_web",
+  "version": "1.0.0",
+  "description": "fork from TUNA mirror",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUSTC/mirror-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUSTC/mirror-web/issues"
+  },
+  "homepage": "https://github.com/SUSTC/mirror-web#readme"
+}

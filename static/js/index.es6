@@ -25,30 +25,13 @@ var mir_tmpl = $("#template").text(),
 	},
 
 	unlisted = [{
-		'status': 'success',
-		'last_update': '-',
-		'name': "rufus",
-		'url': 'http://rufus.mirrors.sustc.us/',
-		'upstream': 'https://rufus.akeo.ie/'
-	}, {
     'status': 'success',
     'last_update': '-',
-    'name': "centos",
-    'url': '/centos',
-    'upstream': 'https://mirrors.tuna.tsinghua.edu.cn/'
-  }, {
-    'status': 'success',
-    'last_update': '-',
-    'name': "debian",
-    'url': '/debian',
-    'upstream': 'https://mirrors.tuna.tsinghua.edu.cn/'
-  },{
-    'status': 'success',
-    'last_update': '-',
-    'name': "pypi",
-    'url': 'https://pypi.sustc.us/',
-    'upstream': 'https://pypi.tuna.tsinghua.edu.cn/'
-  }],
+    'name': "ubuntu",
+    'url': '/ubuntu',
+    'upstream': 'https://mirrors.sustech.rocks/'
+  }
+],
 	options = {
 		'AOSP': {
 			'url': "/help/AOSP/"

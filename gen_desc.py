@@ -6,7 +6,7 @@ from collections import OrderedDict
 
 tunasync = json.loads(
     urllib.request
-    .urlopen("https://mirrors.tuna.tsinghua.edu.cn/static/tunasync.json")
+    .urlopen("https://mirrors.sustc.us/static/tunasync.json")
     .read()
     .decode('utf-8')
 )
